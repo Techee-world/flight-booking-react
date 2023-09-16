@@ -1,0 +1,51 @@
+.box-main{
+        margin-top: 50px;
+        width: 100%;
+}
+.details{
+        margin-top: 1px;
+        border:  1px solid black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5px;
+        background-color: rgb(227 203 119);
+}
+.brand{
+        width: 100px;
+}
+p{
+        font-weight: 700;
+}
+.s-time,
+.blank,
+.e-time,
+.kg{
+        width: 50px;
+}
+.box-main .book-btn{
+       
+        background-color: blueviolet;
+        color: white;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        font-size: 25px;
+        padding: 5px;
+        
+}
+.box-main button{
+        padding: 2px 20px ;
+        border: none;
+        border-radius: 30px;
+        font-size: 20px;
+        transition: all 1s;
+        cursor: pointer;
+        color: white;
+}
+.box-main button:hover{
+        transition: all 1s;
+        background-color: brown;
+}
+
+

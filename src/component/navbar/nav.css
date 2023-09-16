@@ -1,0 +1,90 @@
+ul li a{
+        color: wheat;
+      
+      }
+.container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #180d35;
+        padding: 10px 10px 30px 10px;
+        color: rgb(206, 188, 188);
+        z-index: 9;
+        
+}
+.icon a{
+        color: wheat;
+}
+.icon {
+        size: 30px;
+}
+.nav-menu {
+        padding: 5px;    
+}
+.nav-menu ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.nav-menu ul li{
+        list-style: none;
+        margin-left: 25px;
+        font-size: 20px;
+        transition: all 1s;
+}
+ul li:hover{
+      color: rgb(130, 231, 105);
+      transition: all 1s;
+      cursor: pointer;   
+}
+
+.btn button{
+        cursor: pointer;
+        background-color: orange;
+        padding: 6px 15px;
+        border-radius: 6px;
+        color: darkblue;
+        border: none;
+        font-size: 15px;
+        transition: all 1s;
+}
+.btn button:hover{
+        cursor: pointer;
+        background-color: rgb(126, 95, 35);
+        color: rgb(209, 209, 231);
+        border-radius: 6px;
+        border: none;
+        transition: all 1s;
+}
+.btn span{
+        padding: 5px ;
+}
+
+@media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+          padding: 20px;
+        }
+      
+        .icon {
+          font-size: 24px; /* Adjusted font size */
+          margin-top: 20px; /* Added margin for spacing */
+        }
+      
+        .nav-menu ul {
+          flex-direction: column;
+          text-align: center;
+        }
+      
+        .nav-menu ul li {
+          margin: 10px 0;
+        }
+      
+        .btn {
+          text-align: center;
+        }
+      
+        .btn button {
+          width: 100%;
+        }
+      }
