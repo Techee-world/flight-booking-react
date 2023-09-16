@@ -12,7 +12,7 @@ function Details({fromData,whereData}) {
       <div className="details">
      
         <div className="brand">INDIGO(flight Name)</div>
-        <div className="s-time"> <h3>11:05</h3><b>DXB</b><p >{fromData}</p></div>
+        <div className="s-time"> <h3>12:05</h3><b>DXB</b><p >{fromData}</p></div>
         <div className="blank"> 20h 20min</div>
         <div className="e-time"> <h3>19:05</h3><b>CCJ</b><p>{whereData}</p></div>
         <div className="kg"> <p>30 kg</p></div>

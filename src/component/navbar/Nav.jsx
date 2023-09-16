@@ -6,7 +6,7 @@ function Nav({ email }) {
     const [isAlertClicked, setIsAlertClicked] = useState(false);
 
     function clickHandleLog() {
-        window.alert('Click OK');
+        window.alert('log out ');
         setIsAlertClicked(true);
     }
 
