@@ -50,8 +50,8 @@ ul li:hover{
 }
 .btn button:hover{
         cursor: pointer;
-        background-color: rgb(126, 95, 35);
-        color: rgb(209, 209, 231);
+        background-color: rgb(88, 67, 24);
+        color: rgb(225, 225, 235);
         border-radius: 6px;
         border: none;
         transition: all 1s;
